@@ -1,0 +1,77 @@
+/* create a CSS reset */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#main {
+    color: red;
+}
+
+.wrapper {
+    /* background-color: blue; */
+    padding: 20px;
+    /* width: 70%; */
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.box {
+    display: inline-block;
+    width: 44%;
+    vertical-align: top;
+}
+
+a {
+    text-decoration: none;
+    color: darkslategrey;
+    background-color: blanchedalmond;
+    padding: 10px;
+    margin: 10px;
+}
+
+.space-bottom {
+    margin-bottom: 20px;
+}
+
+.box1 {
+    background-color: red;
+    width: 100px;
+    height: 300px;
+}
+.box2 {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+}
+.box3 {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+
+.box1, .box2, .box3, .right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* .box2 {
+    margin-left: 20px;
+} */
+
+.box-wrapper {
+    width: 60%;
+}
+
+.box3{
+    display: block;
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 50%;
+}
