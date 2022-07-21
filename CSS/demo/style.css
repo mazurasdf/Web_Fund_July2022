@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    background-color: #f5f5f5;
+}
+
+nav{
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    border-bottom: 2px solid rgb(176, 176, 176);
+    margin-bottom: 15px;
+}
+
+.centeredDiv{
+    width: 80%;
+    height: 100%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* TODO get rid of this test height */
+body > .centeredDiv{
+    height: 600px;
+}
+
+#leftNav{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    align-items: center;
+}
+
+#logo{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+input{
+    height: 75%;
+    border: 2px solid grey;
+    border-radius: 5px;
+    width: 70%;
+}
+
+#rightNav{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    align-items: center;
+}
+
+#rightNav > button{
+    border: 1px solid rebeccapurple;
+    color: rebeccapurple;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#sideBar{
+    height: 100%;
+    width: 20%;
+}
+
+#mainContent{
+    height: 100%;
+    width: 50%;
+}
+
+#linksColumn{
+    height: 100%;
+    width: 27%;
+}
+
+.contentBox{
+    width: 98%;
+    border: 2px solid rgb(176, 176, 176);
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+#leftLinks{
+    list-style-type:none;
+}
+
+#leftLinks > li{
+    margin: 10px 0px;
+}
+
+.filterLink{
+    margin: 25px 20px;
+    font-size: 1.5em;
+    color:rgb(176, 176, 176);
+    text-decoration: none;
+}
+
+.contentBox > img{
+    width: 100%;
+}
