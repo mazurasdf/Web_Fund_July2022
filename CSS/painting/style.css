@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#frame{
+    height: 650px;
+    width: 650px;
+    border: 2px solid black;
+    margin: 10px auto;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#topHalf{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#bottomHalf{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#twinBoxes{
+    height:100%;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#bigRed{
+    height:100%;
+    width: 75%;
+    background-color: red;
+}
+
+.halfBox{
+    width: 100%;
+    height: 45%;
+    background-color: white;
+}
+
+#blueBox{
+    height: 100%;
+    width: 20%;
+    background-color: blue;
+}
+
+#longBottom{
+    height: 100%;
+    width: 60%;
+    background-color: white;
+}
+
+#smallCorner{
+    height: 100%;
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#yellow{
+    background-color: yellow;
+}
